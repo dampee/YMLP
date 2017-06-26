@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.0.0.5949
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0773864-7D62-487F-AD04-0547A0FE9E41}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		YmlpTest.vsmdi = YmlpTest.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prompt.YmlpApi", "YmlpApi\Prompt.YmlpApi.csproj", "{AC2A3B9C-B492-4950-A967-753946F163A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prompt.YmlpApi.Test", "Prompt.YmlpApi.Test\Prompt.YmlpApi.Test.csproj", "{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsole", "SampleConsole\SampleConsole.csproj", "{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = YmlpTest.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Debug|x86.ActiveCfg = Debug|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Debug|x86.Build.0 = Debug|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Release|Any CPU.ActiveCfg = Release|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Release|x86.ActiveCfg = Release|x86
+		{AC2A3B9C-B492-4950-A967-753946F163A9}.Release|x86.Build.0 = Release|x86
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Debug|x86.Build.0 = Debug|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Release|x86.Build.0 = Release|Any CPU
+		{B68499A6-54FD-4D23-B6C7-2DC9010EFAD1}.Release|x86.ActiveCfg = Release|Any CPU
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Debug|Any CPU.Build.0 = Debug|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Debug|x86.Build.0 = Debug|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Debug|x86.ActiveCfg = Debug|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Release|Any CPU.Build.0 = Release|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Release|Any CPU.ActiveCfg = Release|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Release|x86.Build.0 = Release|x86
+		{C6944BA6-1064-426F-B90D-D90DBEFE4AE3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
