@@ -8,7 +8,7 @@ It stands for YourMailingListProvider.Com.  Ymlp.com provides an online e-mail n
 
 ## Install via nuget 
 
-{{  Install-Package Prompt.YmlpApi}}
+    Install-Package Prompt.YmlpApi
 
 ## Create free account
 You can [create an account for free](http://ymlp.com?a=NXV1HS) and use the API at no costs.
